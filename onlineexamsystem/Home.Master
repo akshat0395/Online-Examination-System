@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="onlineexamsystem.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="au.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 20%;
+            width: 96%;
+        }
+        .auto-style2 {
+            height: 592px;
+            width: 100%;
+        }
+        .auto-style6 {
+            float: left;
+            width: 23%;
+            height: 50%;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .auto-style7 {
+            height: 20%;
+            width: 100%;
+            text-decoration: none;
+        }
+        .auto-style8 {
+            color: #000000;
+        }
+        .auto-style9 {
+            margin-left: 20%;
+            margin-right:2px;
+            width: 80%;
+        }
+        .auto-style10 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body style="height: 670px">
+    <form id="form1" runat="server" class="auto-style2">
+        <div id="topContent" class="auto-style1">
+            <br class="auto-style10" />
+            ONLINE EXAM SYSTEM</div>
+        <div id="leftContent" class="auto-style6">
+         <h4> MENU </h4>
+         <h3><a href="AboutUs.aspx" class="auto-style7"> <span class="auto-style8">Home</span> </a></h3>
+         <h3><a href="AboutUs.aspx" class="auto-style7"><span class="auto-style8"> About Us</span></a> </h3>
+         <h3><a href="Registration.aspx" class="auto-style7"><span class="auto-style8"> Registration </span></a></h3>
+         <h3><a href="UserLogin.aspx" class="auto-style7"><span class="auto-style8"> Login </span></a></h3>
+         <h3><a href="UserLogin.aspx" class="auto-style7"><span class="auto-style8">Online Exam</span></a></h3>
+         <h3><a href="result.aspx" class="auto-style7"><span class="auto-style8">Results</span></a></h3> 
+     </div>
+        <div id="mainContent" class="auto-style9">
+            <br />
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+        <div id="foot">
+
+        </div>
+    </form>
+</body>
+</html>

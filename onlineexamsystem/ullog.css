@@ -1,0 +1,30 @@
+﻿#uloghead {
+    height: 20%;
+    width: 100%;
+    background-color: #1F4788;
+}
+
+#ulogm {
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+#ulogf {
+    height: 20%;
+    width: 100%;
+    background-color: #4B77BE;
+}
+#fptop{
+    height:20%;
+    width:100%;
+    background-color:#4B77BE;
+    text-align:center;
+}
+#fpmain{
+    height:80%;
+    width:100%;
+    background-color:white;
+    text-align:center;
+}

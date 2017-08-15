@@ -1,0 +1,27 @@
+﻿body, html {
+    height: 100%;
+} 
+#examtop {
+    height:20%;
+    width:100%;
+    background-color:#FF9900;
+    text-align:center;
+}
+#exammain{
+    height:65%;
+    width:100%;
+    background-color:#6599FF;
+    text-align:center;
+}
+#examfoot{
+    height:15%;
+    width:100%;
+    background-color:#FFDE00;
+    text-align:center;
+}
+#only{
+    height:50%;
+    width:50%;
+    margin-left:25%;
+    margin-top:15%;
+}

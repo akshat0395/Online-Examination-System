@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ulog.master.cs" Inherits="onlineexamsystem.ulog" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="ullog.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 100%;
+        }
+        .auto-style2 {
+            height: 20%;
+            text-align:center;
+        }
+        .auto-style3 {
+            width: 1026px;
+            height: 336px;
+        }
+    </style>
+</head>
+<body style="height: 670px">
+    <form id="form1" runat="server" class="auto-style1">
+        <div id="uloghead">
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p class="auto-style2">
+                    <br />
+                </p>
+            </asp:ContentPlaceHolder>
+            
+        </div>
+        <div id="ulogm">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <p>
+                    <br />
+                </p>
+            </asp:ContentPlaceHolder>
+
+        </div>
+        <div id="ulogf">
+
+        </div>
+    </form>
+</body>
+</html>
